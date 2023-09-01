@@ -1,0 +1,53 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#general_container {
+    width: 100%;
+    height: 100vh;
+    background-color: lightskyblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#the_game {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: red;
+}
+
+button {
+    width: 7rem;
+    color: black;
+}
+
+#grid {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1.25rem;
+}
+
+.cell {
+    border: 1px solid black;
+    width: calc(100%/10);
+    aspect-ratio: 1 / 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
